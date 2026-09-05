@@ -3,7 +3,7 @@
    ========================================================== */
 const BRAND_NAME = "MEDINA";
 const SERVICE_PHONE = "0612345678";           // رقم خدمة العملاء المعروض فوق الموقع
-const WHATSAPP_NUMBER = "212XXXXXXXXX";       // رقم واتساب بصيغة دولية بدون + أو 00
+const WHATSAPP_NUMBER = "212617139424";       // رقم واتساب بصيغة دولية بدون + أو 00
 
 const FEATURED_PRODUCT_NAME = "MEDINA SCALE S400";
 const FEATURED_PRICE = 299;   // السعر الحالي (درهم)
