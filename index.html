@@ -1,61 +1,70 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="fr" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ميزان إلكتروني للحساب والتسعير | اطلب الآن</title>
-<meta name="description" content="ميزان إلكتروني احترافي يحسب الوزن والسعر في ثوانٍ. مناسب للمحلات التجارية، البقالات، محلات الخضر واللحوم والحلويات. توصيل متوفر والدفع عند الاستلام.">
-<meta property="og:title" content="ميزان إلكتروني للحساب والتسعير">
-<meta property="og:description" content="ميزان عملي للمحلات والمشاريع التجارية، يزن ويحسب السعر بسرعة ودقة. اطلبه الآن مع التوصيل والدفع عند الاستلام.">
-<meta property="og:type" content="product">
-<meta property="og:image" content="assets/images/1000542075.jpg">
-<meta name="theme-color" content="#0879C9">
+<title>MEDINA — Des outils pensés pour votre quotidien</title>
+<meta name="description" content="MEDINA : balances, accessoires de cuisine, encensoirs et produits du quotidien. Qualité sélectionnée, livraison rapide, paiement à la livraison partout au Maroc.">
+<meta property="og:title" content="MEDINA — Smart Tools for Everyday Life">
+<meta property="og:description" content="Découvrez nos balances, accessoires de cuisine, produits pour la maison et le soin quotidien.">
+<meta property="og:image" content="assets/logo/medina-logo.jpg">
+<meta name="theme-color" content="#075B47">
+<link rel="icon" href="assets/logo/medina-logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
-  "@type": "Product",
-  "name": "ميزان إلكتروني للحساب والتسعير",
-  "image": "assets/images/1000542075.jpg",
-  "description": "ميزان إلكتروني احترافي لوزن المنتجات وحساب السعر تلقائياً، مناسب للمحلات التجارية والمشاريع الصغيرة.",
-  "brand": {
-    "@type": "Brand",
-    "name": "ميزانك"
-  },
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "MAD",
-    "availability": "https://schema.org/InStock"
-  }
+  "@type": "Organization",
+  "name": "MEDINA",
+  "slogan": "Smart Tools for Everyday Life",
+  "logo": "assets/logo/medina-logo.jpg",
+  "description": "Balances, accessoires de cuisine, produits pour la maison et le soin quotidien."
 }
 </script>
 </head>
 <body>
 
-<a href="#main" class="skip-link">تخطَّ إلى المحتوى</a>
+<a href="#main" class="skip-link">Aller au contenu</a>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <span class="top-bar-item">🚚 Livraison partout au Maroc</span>
+  <span class="top-bar-item top-bar-phone">Service client&nbsp;: <a id="topBarPhone" href="tel:">--</a></span>
+</div>
 
 <!-- HEADER -->
 <header class="site-header" id="siteHeader">
   <div class="header-inner">
-    <div class="brand">
-      <span class="brand-name">ميزانك</span>
-      <span class="brand-tag">الدقة • السرعة • الاحتراف</span>
-    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <a href="#main" class="brand">
+      <img src="assets/logo/medina-logo.jpg" alt="MEDINA" class="brand-logo">
+    </a>
 
     <nav class="main-nav" id="mainNav">
-      <a href="#main">الرئيسية</a>
-      <a href="#features">المميزات</a>
-      <a href="#how">طريقة الاستخدام</a>
-      <a href="#faq">الأسئلة الشائعة</a>
+      <a href="#main">Accueil</a>
+      <a href="#categories">Boutique</a>
+      <a href="#categories">Catégories</a>
+      <a href="#why">À propos</a>
+      <a href="#offers">Nos offres</a>
+      <a href="#contact">Contact</a>
     </nav>
 
     <div class="header-actions">
-      <a href="#order" class="btn btn-primary btn-sm">اطلب الآن</a>
-      <button class="menu-toggle" id="menuToggle" aria-label="القائمة" aria-expanded="false" aria-controls="mainNav">
-        <span></span><span></span><span></span>
+      <button class="icon-btn" aria-label="Rechercher">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.8"/><path d="M20 20L16 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <button class="icon-btn" aria-label="Mon compte">
+        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.2" stroke="currentColor" stroke-width="1.8"/><path d="M5 20C5 16.4 8 14.3 12 14.3C16 14.3 19 16.4 19 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <button class="icon-btn cart-btn" aria-label="Panier">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M4 6H6L7.4 15.2C7.6 16.4 8.6 17.3 9.9 17.3H17.3C18.5 17.3 19.6 16.5 19.9 15.3L21.3 9.5H6.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="20.5" r="1.2" fill="currentColor"/><circle cx="17.5" cy="20.5" r="1.2" fill="currentColor"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
       </button>
     </div>
   </div>
@@ -67,285 +76,195 @@
   <section class="hero">
     <div class="hero-inner">
       <div class="hero-copy">
-        <p class="hero-eyebrow">لأصحاب المحلات والمشاريع التجارية</p>
-        <h1>ميزان إلكتروني احترافي يحسب الوزن والسعر في ثوانٍ</h1>
-        <p class="hero-sub">ميزان عملي للمحلات والمشاريع التجارية، يساعدك على وزن المنتجات وحساب السعر بسرعة ودقة.</p>
-
-        <ul class="badge-list">
-          <li>دقة في الوزن</li>
-          <li>حساب السعر تلقائياً</li>
-          <li>شاشة واضحة</li>
-          <li>مناسب للمحلات</li>
-        </ul>
+        <p class="hero-eyebrow">Smart Tools for Everyday Life</p>
+        <h1>Des outils pensés pour votre quotidien.</h1>
+        <p class="hero-sub">Découvrez notre sélection de balances, accessoires de cuisine, moulins, encensoirs et produits du quotidien.</p>
 
         <div class="hero-cta">
-          <a href="#order" class="btn btn-primary btn-lg">اطلبه الآن</a>
-          <a href="#features" class="btn btn-ghost btn-lg">شاهد المميزات</a>
-        </div>
-
-        <div class="trust-row">
-          <div class="trust-item">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M9 12.5L11 14.5L15.5 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9.5" stroke="currentColor" stroke-width="1.6"/></svg>
-            <span>جودة موثوقة</span>
-          </div>
-          <div class="trust-item">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M4 6H16M4 12H12M4 18H8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-            <span>سهل الاستخدام</span>
-          </div>
-          <div class="trust-item">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M3 9L12 3L21 9V20H3V9Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
-            <span>مناسب للمحلات</span>
-          </div>
+          <a href="#categories" class="btn btn-primary btn-lg">Découvrir nos produits</a>
+          <a href="#" id="heroWhatsapp" class="btn btn-ghost btn-lg" target="_blank" rel="noopener">Commander sur WhatsApp</a>
         </div>
       </div>
 
       <div class="hero-visual">
         <div class="hero-glow"></div>
-        <img src="assets/images/1000542075.jpg" alt="ميزان إلكتروني للحساب والتسعير" class="hero-product-img" loading="eager">
+        <img src="assets/images/scale-product.jpg" alt="Balance électronique MEDINA" class="hero-product-img">
+        <span class="hero-tag hero-tag-1">Précision certifiée</span>
+        <span class="hero-tag hero-tag-2">MEDINA SCALE</span>
       </div>
     </div>
+
+    <ul class="trust-strip">
+      <li>
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3L14.5 8.2L20.2 9L16 13L17 18.7L12 16L7 18.7L8 13L3.8 9L9.5 8.2L12 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        Qualité sélectionnée
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3L20 6.5V11C20 16 16.5 19.7 12 21C7.5 19.7 4 16 4 11V6.5L12 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M9 11.5L11 13.5L15 9.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Meilleurs prix garantis
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24" fill="none"><path d="M3 7H14V16H3V7Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M14 10H17.5L20 13V16H14V10Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="7" cy="18" r="1.6" stroke="currentColor" stroke-width="1.5"/><circle cx="17" cy="18" r="1.6" stroke="currentColor" stroke-width="1.5"/></svg>
+        Livraison rapide
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="6" width="17" height="12" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M3.5 10H20.5" stroke="currentColor" stroke-width="1.5"/></svg>
+        Paiement sécurisé
+      </li>
+    </ul>
   </section>
 
-  <!-- OFFER -->
-  <section class="offer-section">
-    <div class="offer-card">
-      <span class="offer-badge">خصم محدود</span>
-      <h2>عرض خاص لفترة محدودة</h2>
-
-      <div class="price-row">
-        <span class="price-new" id="priceNew">--- درهم</span>
-        <span class="price-old" id="priceOld">--- درهم</span>
-      </div>
-
-      <div class="offer-perks">
-        <span>🚚 التوصيل متوفر</span>
-        <span>💵 الدفع عند الاستلام</span>
-      </div>
-
-      <a href="#order" class="btn btn-primary btn-lg btn-block">اطلب الآن</a>
-    </div>
-  </section>
-
-  <!-- BENEFITS -->
-  <section class="section" id="features">
+  <!-- CATEGORIES -->
+  <section class="section" id="categories">
     <div class="section-head">
-      <h2>لماذا هذا الميزان؟</h2>
+      <p class="section-eyebrow">Nos catégories</p>
+      <h2>Une famille de produits pour chaque usage</h2>
     </div>
 
-    <div class="benefits-grid">
-      <article class="benefit-card">
-        <div class="benefit-icon">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3V6M12 3C8 3 5 6.5 5 11C5 16 8 19 12 19C16 19 19 16 19 11C19 6.5 16 3 12 3Z" stroke="currentColor" stroke-width="1.6"/><path d="M12 8V11L14.2 12.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M9 21H15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    <div class="categories-grid">
+      <a href="#" class="category-card category-card-photo">
+        <img src="assets/images/scale-product.jpg" alt="Balances MEDINA">
+        <div class="category-card-body">
+          <h3>Balances</h3>
+          <span>Voir produits →</span>
         </div>
-        <h3>وزن دقيق</h3>
-        <p>احصل على قراءة واضحة للوزن لمساعدتك في البيع بثقة.</p>
-      </article>
+      </a>
 
-      <article class="benefit-card">
-        <div class="benefit-icon">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M4 7H20M4 12H20M4 17H14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="18" cy="17" r="2.4" stroke="currentColor" stroke-width="1.6"/></svg>
+      <a href="#" class="category-card">
+        <div class="category-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M8 3V9C8 10.7 9.3 12 11 12V21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 3V9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M16 3C16 3 14.5 5 14.5 8C14.5 10 15.2 11 16 11.5V21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
-        <h3>حساب السعر</h3>
-        <p>يساعدك على حساب قيمة المنتج حسب الوزن والسعر.</p>
-      </article>
+        <div class="category-card-body">
+          <h3>Cuisine</h3>
+          <span>Voir produits →</span>
+        </div>
+      </a>
 
-      <article class="benefit-card">
-        <div class="benefit-icon">
-          <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="6" width="17" height="12" rx="1.6" stroke="currentColor" stroke-width="1.6"/><path d="M7 9.5H13M7 13H10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <a href="#" class="category-card">
+        <div class="category-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 20V10L12 4L20 10V20" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 20V14H15V20" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
         </div>
-        <h3>شاشة واضحة</h3>
-        <p>شاشة رقمية سهلة القراءة أثناء العمل.</p>
-      </article>
+        <div class="category-card-body">
+          <h3>Maison</h3>
+          <span>Voir produits →</span>
+        </div>
+      </a>
 
-      <article class="benefit-card">
-        <div class="benefit-icon">
-          <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 9H16M8 13H16M8 17H12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <a href="#" class="category-card">
+        <div class="category-icon">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="7" y="9" width="10" height="12" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M10 9V6.5C10 5.1 11.1 4 12.5 4C13.9 4 15 5.1 15 6.5V9" stroke="currentColor" stroke-width="1.6"/></svg>
         </div>
-        <h3>ذاكرة الأسعار</h3>
-        <p>إمكانية حفظ أسعار المنتجات للوصول إليها بسرعة.</p>
-      </article>
-
-      <article class="benefit-card">
-        <div class="benefit-icon">
-          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M5 20C5 16.5 8 14.5 12 14.5C16 14.5 19 16.5 19 20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <div class="category-card-body">
+          <h3>Care</h3>
+          <span>Voir produits →</span>
         </div>
-        <h3>سهل الاستخدام</h3>
-        <p>واجهة بسيطة ومناسبة للاستخدام اليومي.</p>
-      </article>
-
-      <article class="benefit-card">
-        <div class="benefit-icon">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M4 19V9L12 4L20 9V19" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 19V13H15V19" stroke="currentColor" stroke-width="1.6"/></svg>
-        </div>
-        <h3>تصميم عملي</h3>
-        <p>مصمم ليتناسب مع احتياجات المحلات والمشاريع التجارية.</p>
-      </article>
+      </a>
     </div>
   </section>
 
-  <!-- PRODUCT DETAILS -->
-  <section class="section section-alt">
-    <div class="details-wrap">
-      <div class="details-media">
-        <img src="assets/images/1000542074.jpg" alt="علبة الميزان الإلكتروني للحساب والتسعير" loading="lazy">
+  <!-- FEATURED PRODUCT / OFFER -->
+  <section class="section section-alt" id="offers">
+    <div class="featured-wrap">
+      <div class="featured-media">
+        <img src="assets/images/scale-product.jpg" alt="MEDINA SCALE S400">
       </div>
-      <div class="details-copy">
-        <h2>كل ما تحتاجه في ميزان واحد</h2>
-        <ul class="spec-list">
-          <li><span>النوع</span><strong>Electronic Price Computing Scale</strong></li>
-          <li><span>أقصى وزن (Max)</span><strong>30 كغ</strong></li>
-          <li><span>أدنى وزن (Min)</span><strong>200 غ</strong></li>
-          <li><span>دقة القراءة (e=d)</span><strong>5 غ</strong></li>
-          <li><span>أزرار الذاكرة</span><strong>متوفرة</strong></li>
-          <li><span>الشاشة</span><strong>LCD رقمية</strong></li>
+      <div class="featured-copy">
+        <span class="featured-badge">MEDINA SCALE</span>
+        <h2>MEDINA SCALE S400</h2>
+        <p class="featured-tagline">Precision you can trust.</p>
+        <ul class="featured-specs">
+          <li>Haute précision de pesée</li>
+          <li>Écran digital lisible</li>
+          <li>Grande capacité — jusqu'à 30 kg</li>
+          <li>Usage professionnel quotidien</li>
         </ul>
-        <p class="details-note">قد تختلف بعض التفاصيل حسب النسخة المتوفرة.</p>
+        <div class="featured-price-row">
+          <span class="price-new" id="offerPriceNew">--- DH</span>
+          <span class="price-old" id="offerPriceOld">--- DH</span>
+        </div>
+        <div class="featured-cta">
+          <a href="#contact" class="btn btn-primary btn-lg">Ajouter au panier</a>
+          <a href="#" class="btn btn-ghost btn-lg js-whatsapp-link" target="_blank" rel="noopener">Commander via WhatsApp</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- TARGET CUSTOMERS -->
-  <section class="section" id="customers">
+  <!-- WHY MEDINA -->
+  <section class="section" id="why">
     <div class="section-head">
-      <h2>مثالي لمجموعة واسعة من الأنشطة</h2>
+      <p class="section-eyebrow">Pourquoi MEDINA</p>
+      <h2>Une marque pensée pour durer</h2>
     </div>
-    <div class="customers-grid">
-      <div class="customer-chip"><span class="chip-emoji">🥬</span>محلات الخضر والفواكه</div>
-      <div class="customer-chip"><span class="chip-emoji">🥩</span>محلات اللحوم</div>
-      <div class="customer-chip"><span class="chip-emoji">🍗</span>محلات الدجاج</div>
-      <div class="customer-chip"><span class="chip-emoji">🛒</span>البقالات</div>
-      <div class="customer-chip"><span class="chip-emoji">🍰</span>محلات الحلويات</div>
-      <div class="customer-chip"><span class="chip-emoji">🌿</span>محلات الأعشاب</div>
-      <div class="customer-chip"><span class="chip-emoji">🏪</span>المشاريع الصغيرة</div>
+
+    <div class="why-grid">
+      <article class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3L14.5 8.2L20.2 9L16 13L17 18.7L12 16L7 18.7L8 13L3.8 9L9.5 8.2L12 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Qualité sélectionnée</h3>
+        <p>Chaque produit MEDINA est choisi et testé avant de rejoindre notre catalogue.</p>
+      </article>
+
+      <article class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3 7H14V16H3V7Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M14 10H17.5L20 13V16H14V10Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="7" cy="18" r="1.6" stroke="currentColor" stroke-width="1.5"/><circle cx="17" cy="18" r="1.6" stroke="currentColor" stroke-width="1.5"/></svg>
+        </div>
+        <h3>Livraison rapide</h3>
+        <p>Vos commandes préparées avec soin et livrées partout au Maroc.</p>
+      </article>
+
+      <article class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="6" width="17" height="12" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M3.5 10H20.5" stroke="currentColor" stroke-width="1.5"/></svg>
+        </div>
+        <h3>Paiement à la livraison</h3>
+        <p>Réglez votre commande au moment où vous la recevez, en toute confiance.</p>
+      </article>
+
+      <article class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M20 12C20 16.4 16.4 20 12 20C7.6 20 4 16.4 4 12C4 7.6 7.6 4 12 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M20 4L12 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M14 4H20V10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Service après-vente</h3>
+        <p>Une équipe disponible pour répondre à vos questions après l'achat.</p>
+      </article>
     </div>
   </section>
 
-  <!-- HOW IT WORKS -->
-  <section class="section section-alt" id="how">
+  <!-- TESTIMONIALS -->
+  <section class="section section-alt">
     <div class="section-head">
-      <h2>طريقة الاستخدام</h2>
-    </div>
-    <div class="steps-grid">
-      <div class="step-card">
-        <span class="step-num">01</span>
-        <h3>ضع المنتج على الميزان</h3>
-      </div>
-      <div class="step-arrow" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none"><path d="M17 8L20 11L17 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 11H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      </div>
-      <div class="step-card">
-        <span class="step-num">02</span>
-        <h3>حدد السعر حسب الوحدة</h3>
-      </div>
-      <div class="step-arrow" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none"><path d="M17 8L20 11L17 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 11H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      </div>
-      <div class="step-card">
-        <span class="step-num">03</span>
-        <h3>احصل على الوزن والسعر بسرعة</h3>
-      </div>
-    </div>
-  </section>
-
-  <!-- SHOWCASE -->
-  <section class="showcase">
-    <div class="showcase-inner">
-      <div class="showcase-media">
-        <img src="assets/images/1000542075.jpg" alt="عرض تفصيلي لميزان الحساب والتسعير" loading="lazy">
-        <span class="showcase-label label-1">شاشة رقمية</span>
-        <span class="showcase-label label-2">لوحة تحكم سهلة</span>
-        <span class="showcase-label label-3">منصة وزن واسعة</span>
-        <span class="showcase-label label-4">تصميم عملي</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- SOCIAL PROOF -->
-  <section class="section" id="reviews">
-    <div class="section-head">
-      <h2>ماذا يقول أصحاب المحلات؟</h2>
+      <p class="section-eyebrow">Nos clients</p>
+      <h2>Ce qu'ils disent de MEDINA</h2>
     </div>
     <div class="reviews-grid">
       <article class="review-card">
         <div class="stars">★★★★★</div>
-        <p>"الميزان سهل جداً في الاستعمال، وساعدني كثيراً في تسريع عملية البيع."</p>
-        <span class="review-author">— صاحب محل</span>
+        <p>"Une balance fiable et une livraison rapide, exactement ce qu'il fallait pour mon commerce."</p>
+        <span class="review-author">— Propriétaire de commerce</span>
       </article>
       <article class="review-card">
         <div class="stars">★★★★★</div>
-        <p>"الشاشة واضحة والحساب أصبح أسرع بكثير."</p>
-        <span class="review-author">— متجر مواد غذائية</span>
+        <p>"Produits soignés, packaging premium. Ça se voit que la marque prend soin des détails."</p>
+        <span class="review-author">— Client Instagram</span>
       </article>
       <article class="review-card">
         <div class="stars">★★★★★</div>
-        <p>"مناسب جداً للاستعمال اليومي."</p>
-        <span class="review-author">— صاحب مشروع</span>
+        <p>"Le service client a répondu rapidement sur WhatsApp, commande reçue en 2 jours."</p>
+        <span class="review-author">— Client fidèle</span>
       </article>
     </div>
   </section>
 
-  <!-- ORDER FORM -->
-  <section class="section section-order" id="order">
-    <div class="section-head">
-      <h2>اطلب ميزانك الآن</h2>
-    </div>
-
-    <form class="order-form" id="orderForm" novalidate>
-      <div class="form-row">
-        <label for="fullName">الاسم الكامل</label>
-        <input type="text" id="fullName" name="fullName" autocomplete="name" required>
-        <span class="field-error" data-error-for="fullName"></span>
+  <!-- CONTACT / NEWSLETTER -->
+  <section class="section" id="contact">
+    <div class="contact-wrap">
+      <div class="contact-copy">
+        <h2>Restons en contact</h2>
+        <p>Une question sur un produit ou une commande&nbsp;? Écrivez-nous directement sur WhatsApp, notre équipe vous répond rapidement.</p>
+        <a href="#" class="btn btn-primary btn-lg js-whatsapp-link" target="_blank" rel="noopener">Commander sur WhatsApp</a>
       </div>
-
-      <div class="form-row">
-        <label for="phone">رقم الهاتف</label>
-        <input type="tel" id="phone" name="phone" placeholder="06XXXXXXXX" autocomplete="tel" required>
-        <span class="field-error" data-error-for="phone"></span>
-      </div>
-
-      <div class="form-row">
-        <label for="city">المدينة</label>
-        <input type="text" id="city" name="city" autocomplete="address-level2" required>
-        <span class="field-error" data-error-for="city"></span>
-      </div>
-
-      <div class="form-row">
-        <label for="address">العنوان</label>
-        <input type="text" id="address" name="address" autocomplete="street-address" required>
-        <span class="field-error" data-error-for="address"></span>
-      </div>
-
-      <div class="form-row">
-        <label for="quantity">الكمية</label>
-        <input type="number" id="quantity" name="quantity" min="1" value="1" required>
-        <span class="field-error" data-error-for="quantity"></span>
-      </div>
-
-      <button type="submit" class="btn btn-primary btn-lg btn-block" id="orderSubmitBtn">
-        <span class="btn-label">تأكيد الطلب</span>
-      </button>
-
-      <p class="order-success" id="orderSuccess" role="status" aria-live="polite" hidden>
-        تم استلام طلبك بنجاح ✅<br>سنتواصل معك لتأكيد الطلب.
-      </p>
-    </form>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section" id="faq">
-    <div class="section-head">
-      <h2>الأسئلة الشائعة</h2>
-    </div>
-    <div class="accordion" id="faqAccordion"></div>
-  </section>
-
-  <!-- URGENCY -->
-  <section class="urgency">
-    <div class="urgency-inner">
-      <h2>جاهز لتسهيل عملية البيع في محلك؟</h2>
-      <p>احصل على ميزان عملي يساعدك على الوزن والحساب بسرعة.</p>
-      <a href="#order" class="btn btn-accent btn-lg">اطلب الآن</a>
-      <span class="urgency-note">الكمية محدودة</span>
     </div>
   </section>
 
@@ -355,40 +274,50 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <span class="brand-name">ميزانك</span>
-      <p>حل عملي للوزن والحساب للمحلات والمشاريع التجارية.</p>
+      <img src="assets/logo/medina-logo.jpg" alt="MEDINA" class="footer-logo">
+      <p>Smart Tools for Everyday Life.</p>
     </div>
 
-    <nav class="footer-links">
-      <a href="#main">الرئيسية</a>
-      <a href="#features">المميزات</a>
-      <a href="#faq">الأسئلة الشائعة</a>
-      <a href="#order">تواصل معنا</a>
-    </nav>
+    <div class="footer-col">
+      <h4>Boutique</h4>
+      <a href="#categories">Balances</a>
+      <a href="#categories">Cuisine</a>
+      <a href="#categories">Maison</a>
+      <a href="#categories">Care</a>
+    </div>
 
-    <div class="footer-social">
-      <a href="#" id="footerWhatsapp" aria-label="واتساب" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7 3 3 7 3 12C3 13.6 3.4 15.1 4.1 16.4L3 21L7.7 19.9C9 20.6 10.5 21 12 21C17 21 21 17 21 12C21 7 17 3 12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
-      </a>
-      <a href="#" aria-label="فيسبوك">
-        <svg viewBox="0 0 24 24" fill="none"><path d="M14 8.5H16V5.5H14C12.3 5.5 11 6.8 11 8.5V10.5H9V13.5H11V19.5H14V13.5H16L16.5 10.5H14V8.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
-      </a>
-      <a href="#" aria-label="إنستغرام">
-        <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="4.5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="3.4" stroke="currentColor" stroke-width="1.6"/><circle cx="16.6" cy="7.4" r="1" fill="currentColor"/></svg>
-      </a>
+    <div class="footer-col">
+      <h4>Marque</h4>
+      <a href="#why">À propos</a>
+      <a href="#offers">Nos offres</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-col footer-social">
+      <h4>Suivez-nous</h4>
+      <div class="social-icons">
+        <a href="#" id="footerWhatsapp" aria-label="WhatsApp" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3C7 3 3 7 3 12C3 13.6 3.4 15.1 4.1 16.4L3 21L7.7 19.9C9 20.6 10.5 21 12 21C17 21 21 17 21 12C21 7 17 3 12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="4.5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="3.4" stroke="currentColor" stroke-width="1.6"/><circle cx="16.6" cy="7.4" r="1" fill="currentColor"/></svg>
+        </a>
+        <a href="#" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M14 4V14.5C14 16.4 12.4 18 10.5 18C8.6 18 7 16.4 7 14.5C7 12.6 8.6 11 10.5 11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M14 4C14 6.2 15.8 8 18 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M14 8.5H16V5.5H14C12.3 5.5 11 6.8 11 8.5V10.5H9V13.5H11V19.5H14V13.5H16L16.5 10.5H14V8.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
     </div>
   </div>
-  <p class="footer-copy">© 2026 ميزانك — جميع الحقوق محفوظة.</p>
+  <p class="footer-copy">© 2026 MEDINA — Tous droits réservés.</p>
 </footer>
 
 <!-- WHATSAPP FLOATING BUTTON -->
-<a href="#" class="whatsapp-fab" id="whatsappFab" target="_blank" rel="noopener">
+<a href="#" class="whatsapp-fab js-whatsapp-link" target="_blank" rel="noopener" aria-label="Commander sur WhatsApp">
   <svg viewBox="0 0 32 32" fill="none"><path d="M16 3C9.4 3 4 8.4 4 15C4 17.2 4.6 19.3 5.7 21.1L4 29L12.2 27.4C13.9 28.3 15 28.7 16 28.7C22.6 28.7 28 23.3 28 16.7C28 10.1 22.6 3 16 3Z" fill="#25D366"/><path d="M11.5 10.6C11.2 9.9 10.9 9.9 10.6 9.9C10.4 9.9 10.1 9.9 9.9 9.9C9.6 9.9 9.2 10 8.9 10.4C8.6 10.8 7.8 11.5 7.8 13C7.8 14.5 8.9 15.9 9.1 16.1C9.3 16.3 11.1 19.2 14 20.4C16.4 21.4 16.9 21.2 17.4 21.1C17.9 21.1 19 20.4 19.3 19.7C19.5 19 19.5 18.4 19.4 18.3C19.3 18.1 19.1 18 18.8 17.9C18.5 17.7 17 17 16.7 16.9C16.4 16.8 16.2 16.7 16 17C15.8 17.3 15.2 18 15 18.2C14.8 18.4 14.7 18.5 14.4 18.3C14.1 18.1 13.2 17.8 12.1 16.8C11.2 16 10.6 15 10.5 14.7C10.3 14.4 10.5 14.3 10.6 14.1C10.8 14 10.9 13.8 11 13.6C11.2 13.4 11.2 13.3 11.3 13.1C11.4 12.9 11.4 12.7 11.3 12.5C11.2 12.3 11.5 12.3 11.5 10.6Z" fill="#fff"/></svg>
-  <span>اطلب عبر واتساب</span>
 </a>
-
-<!-- MOBILE STICKY CTA -->
-<a href="#order" class="mobile-sticky-cta">اطلب الآن</a>
 
 <script src="js/app.js"></script>
 </body>
